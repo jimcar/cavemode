@@ -21,6 +21,10 @@ $ cd $WORK_DIR
 
 $ git clone https://github.com/jimcar/cavemode.git cavemode
 
+$ cd cavemode
+
+$ mkdir bin pkg
+
 $ export GOPATH=$WORK_DIR/cavemode
 
 $ export PATH=$GOPATH/bin:$PATH
