@@ -9,4 +9,38 @@ Written in go, cavemode leverages the gorest and go-leveldb golang packages. Req
 
 Runs on MacOSX and Linux.
 
+#### Getting started
+
+##### Downloading the binary for Linux or MacOSX
+
+Download the binary from https://github.com/jimcar/cavemode/releases, and install it so that can be found in $PATH.
+
+##### Building cavemode from source
+
+$ cd $WORK_DIR
+
+$ git clone https://github.com/jimcar/cavemode.git cavemode
+
+$ export GOPATH=$WORK_DIR/cavemode
+
+$ export PATH=$GOPATH/bin:$PATH
+
+$ cd $WORK_DIR/src/github.com/jimcar/cavemode
+
+$ go install
+
+
+##### Environment variables
+
+CAVEMODE_DB_DIR specifies the directory where the leveldb files reside.  The default is $HOME/.cavemode/leveldb-files.
+
+CAVEMODE_JSON_INDENT, when set to "true", prettifies the json response body. Useful when exercising the API with curl or a browser.
+
+CAVEMODE_EXTEND_GRAPH_DEPTH, when set to "true", doubles the maximum graph depth from the default of three hops to six.
+
+##### Running cavemode
+
+$ cavemode
+
+Cavemode listens on port 8787, so point your client to localhost:8787 and start making requests.
 
