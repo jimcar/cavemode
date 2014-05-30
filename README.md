@@ -25,6 +25,10 @@ $ export GOPATH=$WORK_DIR/cavemode
 
 $ export PATH=$GOPATH/bin:$PATH
 
+$ go get code.google.com/p/gorest
+
+$ go get code.google.com/p/go-leveldb
+
 $ cd $WORK_DIR/src/github.com/jimcar/cavemode
 
 $ go install
