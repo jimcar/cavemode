@@ -48,3 +48,8 @@ $ cavemode
 
 Cavemode listens on port 8787, so point your client to localhost:8787 and start making requests.
 
+#### Status
+
+Cavemode is fully-functional, but remains rough around the edges. The are a number of known issues, and certainly many more yet to be discovered.
+
+Community participation is highly encouraged, so make a pull request and improve something!
