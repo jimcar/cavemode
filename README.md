@@ -39,7 +39,7 @@ $ go get code.google.com/p/go-leveldb
 
 ###### MacOSX: Temporary workaround for go-leveldb compilation issue (not detecting OS)
 Add the following line to src/code.google.com/p/go-leveldb/port/port_posix.h, before line 11:
-#define OS_MACOSX
+ #define OS_MACOSX
 
 $ cd $WORK_DIR/src/github.com/jimcar/cavemode
 
