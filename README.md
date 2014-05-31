@@ -19,7 +19,7 @@ Download the binary from https://github.com/jimcar/cavemode/releases, and instal
 
 To build cavemode from source, you must have a Go 1.2 development environment.
 
-On MacOSX, you may need to install mercurial using homebrew: "brew install mercurial"
+###### On MacOSX, you may need to install mercurial using homebrew: "brew install mercurial"
 
 $ cd $WORK_DIR
 
@@ -36,6 +36,11 @@ $ export PATH=$GOPATH/bin:$PATH
 $ go get code.google.com/p/gorest
 
 $ go get code.google.com/p/go-leveldb
+
+###### MacOSX
+###### Temporary workaround for go-leveldb compilation issue (not detecting OS)
+######  Add the following line to src/code.google.com/p/go-leveldb/port/port_posix.h, before line 11:
+######  #define OS_MACOSX
 
 $ cd $WORK_DIR/src/github.com/jimcar/cavemode
 
