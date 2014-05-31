@@ -17,6 +17,10 @@ Download the binary from https://github.com/jimcar/cavemode/releases, and instal
 
 ##### Building cavemode from source
 
+To build cavemode from source, you must have a Go 1.2 development environment.
+
+On MacOSX, you may need to install mercurial using homebrew: "brew install mercurial"
+
 $ cd $WORK_DIR
 
 $ git clone https://github.com/jimcar/cavemode.git cavemode
