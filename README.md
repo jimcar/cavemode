@@ -1,7 +1,7 @@
 cavemode
 ========
 
-Cavemode is a stand-alone implementation of the Orchestrate.io API for use in caves (or anywhere else without access to wifi).
+Cavemode is a stand-alone implementation of the [Orchestrate.io API](https://orchestrate.io/docs/api/) for use in caves (or anywhere else without access to wifi).
 
 The Orchestrate.io API is fully supported.  Lucene search capability is minimally supported, but is probably sufficient for use in a test/development environment.
 
@@ -63,6 +63,6 @@ Cavemode listens on port 8787, so point your client to localhost:8787 and start 
 
 #### Status
 
-Cavemode is fully-functional, but remains rough around the edges. The are a number of known issues, and certainly many more yet to be discovered.
+Cavemode is fully-functional, but remains rough around the edges. There are a number of known issues, and certainly many more yet to be discovered.
 
 Community participation is highly encouraged, so make a pull request and improve something!
